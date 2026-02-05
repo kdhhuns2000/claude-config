@@ -62,7 +62,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "node /Users/concepters/.claude/hud/omc-hud.mjs"
+    "command": "bash /Users/dohun/.claude/statusline-command.sh"
   },
   "enabledPlugins": {
     "document-skills@anthropic-agent-skills": true,
