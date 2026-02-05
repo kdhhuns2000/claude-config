@@ -51,9 +51,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/concepters/.claude/hooks/check-compile.sh",
-            "timeout": 120,
-            "statusMessage": "컴파일 확인 중...",
+            "command": "/Users/concepters/.claude/hooks/spring-build-test.sh",
+            "timeout": 300,
+            "statusMessage": "컴파일 & 테스트 확인 중...",
             "async": true
           }
         ]
