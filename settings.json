@@ -1,0 +1,75 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "Bash(./gradlew *)",
+      "Bash(./mvnw *)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(ls)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(cat *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(touch *)",
+      "Bash(chmod *)",
+      "Bash(pwd)",
+      "Bash(which *)",
+      "Bash(docker *)",
+      "Bash(docker-compose *)",
+      "Bash(npm *)",
+      "Bash(yarn *)",
+      "Bash(pnpm *)",
+      "Bash(node *)",
+      "Bash(java *)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/concepters/.claude/hooks/check-compile.sh",
+            "timeout": 120,
+            "statusMessage": "컴파일 확인 중...",
+            "async": true
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "node /Users/concepters/.claude/hud/omc-hud.mjs"
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true,
+    "jdtls-lsp@claude-plugins-official": true,
+    "plannotator@plannotator": true,
+    "Notion@claude-plugins-official": true,
+    "oh-my-claudecode@omc": true
+  },
+  "language": "한국어"
+}

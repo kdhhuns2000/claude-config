@@ -1,0 +1,63 @@
+# ============================================
+# Claude Code - Git Ignore
+# ============================================
+
+# ---- 인증 및 민감 정보 ----
+.claude.json
+.claude.json.backup
+settings.local.json
+
+# ---- 런타임 데이터 ----
+history.jsonl
+stats-cache.json
+
+# ---- 캐시 디렉토리 ----
+cache/
+paste-cache/
+debug/
+shell-snapshots/
+session-env/
+
+# ---- 세션별 데이터 ----
+file-history/
+plans/
+tasks/
+todos/
+
+# ---- 프로젝트별 메모리 ----
+projects/
+
+# ---- 사용량 및 통계 ----
+usage-data/
+statsig/
+
+# ---- 플러그인 캐시 (설정은 유지) ----
+plugins/cache/
+plugins/marketplaces/
+plugins/install-counts-cache.json
+plugins/known_marketplaces.json
+plugins/oh-my-claudecode/
+
+# ---- HUD 런타임 ----
+hud/
+
+# ---- IDE 연동 ----
+ide/
+
+# ---- 시스템 파일 ----
+.DS_Store
+*.log
+
+# ---- 임시 파일 ----
+*.tmp
+*.bak
+*~
+
+# ---- Anthropic 내부 ----
+.anthropic/
+
+# ---- 세션 통계 ----
+.session-stats.json
+
+# ---- 템플릿 (스킬로 대체) ----
+templates/

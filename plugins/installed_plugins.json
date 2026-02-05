@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "plugins": {
+    "document-skills@anthropic-agent-skills": [
+      {
+        "scope": "user",
+        "installPath": "/Users/concepters/.claude/plugins/cache/anthropic-agent-skills/document-skills/a5bcdd7e58cd",
+        "version": "a5bcdd7e58cd",
+        "installedAt": "2025-11-13T03:06:40.678Z",
+        "lastUpdated": "2026-02-05T01:41:49.368Z",
+        "gitCommitSha": "e5c60158df67e67d7609065ba3ad5605a6794e93"
+      }
+    ],
+    "jdtls-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/concepters/.claude/plugins/cache/claude-plugins-official/jdtls-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-07T06:17:07.395Z",
+        "lastUpdated": "2026-01-07T06:17:07.395Z"
+      }
+    ],
+    "plannotator@plannotator": [
+      {
+        "scope": "user",
+        "installPath": "/Users/concepters/.claude/plugins/cache/plannotator/plannotator/0.4.16",
+        "version": "0.4.16",
+        "installedAt": "2026-01-12T07:05:34.801Z",
+        "lastUpdated": "2026-01-12T07:05:34.801Z"
+      }
+    ],
+    "Notion@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/concepters/.claude/plugins/cache/claude-plugins-official/Notion/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-01-20T00:56:21.518Z",
+        "lastUpdated": "2026-01-20T00:56:21.518Z",
+        "gitCommitSha": "a7d0b05ca3f910c71dba56d4062ba781ae092e78"
+      }
+    ],
+    "oh-my-claudecode@omc": [
+      {
+        "scope": "user",
+        "installPath": "/Users/concepters/.claude/plugins/cache/omc/oh-my-claudecode/3.10.3",
+        "version": "3.10.3",
+        "installedAt": "2026-02-05T01:30:47.802Z",
+        "lastUpdated": "2026-02-05T01:30:47.802Z",
+        "gitCommitSha": "0b8f4c7099d92cdc5ad671eb9b0d14a2d6a1c894"
+      }
+    ]
+  }
+}
